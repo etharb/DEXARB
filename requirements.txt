@@ -2,3 +2,5 @@ requests
 gql
 python-dotenv
 websockets
+web3
+py-solc-x

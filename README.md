@@ -1,6 +1,6 @@
 
-## Fáze 3 – Realtime ceny přes multicall a sledování mempoolu
+## Fáze 4 – Smart kontrakt a Executor
 
-- `multicall_utils.py`: logika pro čtení rezerv z více DEXů
-- `mempool_listener.py`: připojení k Alchemy WebSocket a sledování pending transakcí
-- `main.py`: volá oba moduly
+- `ArbitrageRouter.sol`: kontrakt pro provedení arbitráže mezi dvěma DEXy
+- `contract_deploy.py`: deploy na Polygon
+- `arbitrage_executor.py`: provedení arbitráže přes nasazený kontrakt
