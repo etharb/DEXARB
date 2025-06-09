@@ -1,3 +1,5 @@
-# DEX Arbitrage Bot – Fáze 1
 
-Načítá páry z DEXů na Polygonu pomocí subgraphů.
+## Fáze 2 – Výpočet spreadů a detekce arbitráže
+
+- Přidán modul `arbitrage_finder.py`
+- `main.py` načítá logiku z tohoto modulu

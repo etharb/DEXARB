@@ -1,3 +1,4 @@
-# Entry point pro načtení párů z DEX subgraphů
+# Aktualizováno pro fázi 2
 
-print("TODO: načtení párů")
+print("Spouštím výpočet arbitráže...")
+import core.arbitrage_finder
