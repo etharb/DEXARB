@@ -1,0 +1,6 @@
+{
+  "simulate": true,
+  "min_profit": 10.0,
+  "max_gas": 3000000,
+  "slippage": 0.005
+}
